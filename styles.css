@@ -12,7 +12,8 @@
      position: relative;
     
 }
-.menu   
+@media screen and (min-width: 768px) {
+    .menu   
 {
     position: fixed;
     width: 95%;
@@ -23,6 +24,19 @@
     
     
 }
+}
+@media screen and (max-width: 344px) {
+    .menu   
+{
+    position: fixed;
+    width: 90%;
+    top: 20px;
+    color: white;
+    float: left;
+    
+}
+}
+
 img
 {
     width: 100%;
