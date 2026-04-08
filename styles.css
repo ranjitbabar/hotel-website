@@ -50,7 +50,7 @@
     .menu-header {
         position: absolute;
         width: 85%;
-        top: 480px;
+        margin-top: 480px;
         margin-left: 0px;
         font-size: 10px;
         color: white;
