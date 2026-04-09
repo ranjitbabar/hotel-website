@@ -10,6 +10,9 @@
      width: 102%;
      margin-top: 20px;
      position: relative;
+     background-image: url('./210800479.jpg');
+     background-size: cover;
+     opacity: 0.8;
     
 }
 @media screen and (min-width: 768px) {
@@ -103,4 +106,15 @@ li a
     margin-top: 20px;
     width: 30%;
     margin-left: 30px;
+}
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.hero-section {
+  /* background-image: url('./574285481.jpg'); */
+  background-size: cover;
+  background-position: center;
 }
